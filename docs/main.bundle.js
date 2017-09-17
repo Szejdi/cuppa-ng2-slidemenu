@@ -1,6 +1,6 @@
 webpackJsonp([2,4],{
 
-/***/ 291:
+/***/ 292:
 /***/ (function(module, exports) {
 
 function webpackEmptyContext(req) {
@@ -9,20 +9,20 @@ function webpackEmptyContext(req) {
 webpackEmptyContext.keys = function() { return []; };
 webpackEmptyContext.resolve = webpackEmptyContext;
 module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 291;
+webpackEmptyContext.id = 292;
 
 
 /***/ }),
 
-/***/ 292:
+/***/ 293:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__ = __webpack_require__(382);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_app_module__ = __webpack_require__(403);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__environments_environment__ = __webpack_require__(406);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__ = __webpack_require__(383);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_app_module__ = __webpack_require__(404);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__environments_environment__ = __webpack_require__(407);
 
 
 
@@ -31,11 +31,11 @@ if (__WEBPACK_IMPORTED_MODULE_3__environments_environment__["a" /* environment *
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["a" /* enableProdMode */])();
 }
 __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_2__app_app_module__["a" /* AppModule */]);
-//# sourceMappingURL=C:/Users/solomon301.Pradeep/Documents/projects/cuppa-ng2-slidemenu/src/main.js.map
+//# sourceMappingURL=/Users/shadi/WebstormProjects/cuppa-ng2-slidemenu/src/main.js.map
 
 /***/ }),
 
-/***/ 402:
+/***/ 403:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -154,27 +154,27 @@ var AppComponent = (function () {
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["f" /* Component */])({
             selector: 'app',
             encapsulation: __WEBPACK_IMPORTED_MODULE_0__angular_core__["R" /* ViewEncapsulation */].None,
-            styles: [__webpack_require__(463)],
-            template: __webpack_require__(469)
+            styles: [__webpack_require__(464)],
+            template: __webpack_require__(470)
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);
     return AppComponent;
 }());
-//# sourceMappingURL=C:/Users/solomon301.Pradeep/Documents/projects/cuppa-ng2-slidemenu/src/app.component.js.map
+//# sourceMappingURL=/Users/shadi/WebstormProjects/cuppa-ng2-slidemenu/src/app.component.js.map
 
 /***/ }),
 
-/***/ 403:
+/***/ 404:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(115);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(372);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(378);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(116);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(373);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(379);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_component__ = __webpack_require__(402);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__slideMenuNavigation_slideMenu__ = __webpack_require__(405);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_component__ = __webpack_require__(403);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__slideMenuNavigation_slideMenu__ = __webpack_require__(406);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -214,11 +214,11 @@ var AppModule = (function () {
     ], AppModule);
     return AppModule;
 }());
-//# sourceMappingURL=C:/Users/solomon301.Pradeep/Documents/projects/cuppa-ng2-slidemenu/src/app.module.js.map
+//# sourceMappingURL=/Users/shadi/WebstormProjects/cuppa-ng2-slidemenu/src/app.module.js.map
 
 /***/ }),
 
-/***/ 404:
+/***/ 405:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -267,18 +267,18 @@ var ClickOutsideDirective = (function () {
     return ClickOutsideDirective;
     var _a;
 }());
-//# sourceMappingURL=C:/Users/solomon301.Pradeep/Documents/projects/cuppa-ng2-slidemenu/src/clickOutside.js.map
+//# sourceMappingURL=/Users/shadi/WebstormProjects/cuppa-ng2-slidemenu/src/clickOutside.js.map
 
 /***/ }),
 
-/***/ 405:
+/***/ 406:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__ = __webpack_require__(115);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_common__ = __webpack_require__(123);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__clickOutside__ = __webpack_require__(404);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__ = __webpack_require__(116);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_common__ = __webpack_require__(124);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__clickOutside__ = __webpack_require__(405);
 /* unused harmony export SlideMenu */
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SlideMenuModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -369,8 +369,8 @@ var SlideMenu = (function () {
     SlideMenu = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["f" /* Component */])({
             selector: 'cuppa-slidemenu',
-            template: __webpack_require__(470),
-            styles: [__webpack_require__(462)]
+            template: __webpack_require__(471),
+            styles: [__webpack_require__(463)]
         }), 
         __metadata('design:paramtypes', [(typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_0__angular_core__["g" /* ElementRef */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_0__angular_core__["g" /* ElementRef */]) === 'function' && _d) || Object, (typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__["b" /* DomSanitizer */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__["b" /* DomSanitizer */]) === 'function' && _e) || Object])
     ], SlideMenu);
@@ -390,11 +390,11 @@ var SlideMenuModule = (function () {
     ], SlideMenuModule);
     return SlideMenuModule;
 }());
-//# sourceMappingURL=C:/Users/solomon301.Pradeep/Documents/projects/cuppa-ng2-slidemenu/src/slideMenu.js.map
+//# sourceMappingURL=/Users/shadi/WebstormProjects/cuppa-ng2-slidemenu/src/slideMenu.js.map
 
 /***/ }),
 
-/***/ 406:
+/***/ 407:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -406,11 +406,11 @@ var SlideMenuModule = (function () {
 var environment = {
     production: false
 };
-//# sourceMappingURL=C:/Users/solomon301.Pradeep/Documents/projects/cuppa-ng2-slidemenu/src/environment.js.map
+//# sourceMappingURL=/Users/shadi/WebstormProjects/cuppa-ng2-slidemenu/src/environment.js.map
 
 /***/ }),
 
-/***/ 462:
+/***/ 463:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(53)();
@@ -418,7 +418,7 @@ exports = module.exports = __webpack_require__(53)();
 
 
 // module
-exports.push([module.i, ".menu-container {\n  width: 250px;\n  height: 100%;\n  position: fixed;\n  background: #fff;\n  top: 60px;\n  bottom: 0;\n  left: 0;\n  -webkit-transition: all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);\n  transition: all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);\n  border-right: 1px solid #ccc;\n  font-family: 'Arial',sans-serif;\n  overflow: auto;\n  height: calc(100% - 60px);\n  z-index: 9999999;\n  box-shadow: 0px 5px 2px #ccc; }\n\n.menu-container .show-menu {\n  left: 0; }\n\n.menu-container.hide-menu {\n  left: -250px; }\n\n.menu-open {\n  margin-left: 250px !important; }\n\n.cuppa-menu ul {\n  list-style: none;\n  padding: 0px; }\n\n.sub-menu > li > a {\n  padding-left: 50px !important; }\n\n.cuppa-menu ul > li > a {\n  display: block;\n  padding: 15px 30px;\n  background: #fff;\n  text-decoration: none;\n  border-bottom: 1px solid #ccc; }\n\n.cuppa-menu ul > li > a:hover {\n  background: #3fd48f !important;\n  color: #fff; }\n\n.cuppa-menu ul > li > a > i {\n  font-size: 24px;\n  float: right;\n  margin-top: -2px;\n  pointer-events: none; }\n\n/*!\r\n * Hamburgers\r\n * @description Tasty CSS-animated hamburgers\r\n * @author Jonathan Suh @jonsuh\r\n * @site https://jonsuh.com/hamburgers\r\n * @link https://github.com/jonsuh/hamburgers\r\n */\n/*.hamburger {\r\n  float: left;\r\n  padding: 15px 15px;\r\n  display: inline-block;\r\n  cursor: pointer;\r\n  transition-property: opacity, filter;\r\n  transition-duration: 0.15s;\r\n  transition-timing-function: linear;\r\n  font: inherit;\r\n  color: inherit;\r\n  text-transform: none;\r\n  background-color: transparent;\r\n  border: 0;\r\n  margin: 0;\r\n  height: 26px;\r\n  overflow: visible; }\r\n  .hamburger:hover {\r\n    opacity: 0.7; }\r\n\r\n.hamburger-box {\r\n  width: 40px;\r\n  height: 24px;\r\n  display: inline-block;\r\n  position: relative; }\r\n.hamburger:focus{\r\n    outline: none;\r\n}\r\n.hamburger-inner {\r\n  display: block;\r\n  top: 50%;\r\n  margin-top: -2px; }\r\n  .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {\r\n    width: 40px;\r\n    height: 2px;\r\n    background-color: #000;\r\n    border-radius: 4px;\r\n    position: absolute;\r\n    transition-property: transform;\r\n    transition-duration: 0.15s;\r\n    transition-timing-function: ease; }\r\n  .hamburger-inner::before, .hamburger-inner::after {\r\n    content: \"\";\r\n    display: block; }\r\n  .hamburger-inner::before {\r\n    top: -10px; }\r\n  .hamburger-inner::after {\r\n    bottom: -10px; }\r\n\r\n.hamburger--arrow.is-active .hamburger-inner::before {\r\n  transform: translate3d(-9px, 0, 0) rotate(-45deg) scale(0.7, 1); }\r\n\r\n.hamburger--arrow.is-active .hamburger-inner::after {\r\n  transform: translate3d(-9px, 0, 0) rotate(45deg) scale(0.7, 1); }\r\n\r\n.hamburger--arrow-r.is-active .hamburger-inner::before {\r\n  transform: translate3d(9px, 0, 0) rotate(45deg) scale(0.7, 1); }\r\n\r\n.hamburger--arrow-r.is-active .hamburger-inner::after {\r\n  transform: translate3d(9px, 0, 0) rotate(-45deg) scale(0.7, 1); }*/\n.cuppa-menu-overlay {\n  position: fixed;\n  background: #000;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  display: none;\n  -webkit-transition: all 1s linear;\n  transition: all 1s linear; }\n\n.show-overlay {\n  display: block; }\n\n.hide-overlay {\n  display: none; }\n\n/* Hamburger Styles */\n.hamburger {\n  font-size: 50px;\n  float: left;\n  display: inline-block;\n  width: 40px;\n  height: 24px;\n  padding: 0;\n  margin-top: 12px;\n  margin-left: 15px;\n  cursor: pointer;\n  -webkit-transition: -webkit-transform .2s ease-in-out;\n  transition: -webkit-transform .2s ease-in-out;\n  transition: transform .2s ease-in-out;\n  transition: transform .2s ease-in-out, -webkit-transform .2s ease-in-out;\n  -moz-transition: transform .2s ease-in-out;\n  -webkit-transition: transform .2s ease-in-out;\n  vertical-align: middle;\n  border: 0 none;\n  background: transparent; }\n\n.hamburger::-moz-focus-inner {\n  padding: 0;\n  border: 0 none; }\n\n.hamburger:focus {\n  outline: 0; }\n\n.hamburger:before,\n.hamburger:after {\n  content: \"\"; }\n\n.hamburger:before,\n.hamburger .icon,\n.hamburger:after {\n  display: block;\n  width: 100%;\n  height: 4px;\n  margin: 0 0 8px;\n  -webkit-transition: -webkit-transform .2s ease-in-out;\n  transition: -webkit-transform .2s ease-in-out;\n  transition: transform .2s ease-in-out;\n  transition: transform .2s ease-in-out, -webkit-transform .2s ease-in-out;\n  -moz-transition: transform .2s ease-in-out;\n  -webkit-transition: transform .2s ease-in-out;\n  border-radius: .25em;\n  -moz-border-radius: 25em;\n  -webkit-border-radius: .25em;\n  background: #000; }\n\n.hamburger.is-active:before,\n.hamburger.is-active .icon,\n.hamburger.is-active:after {\n  background: #000; }\n\n.hamburger.hamburger-arrow-left.is-active {\n  transform: rotate(180deg);\n  -moz-transform: rotate(180deg);\n  -webkit-transform: rotate(180deg); }\n\n.hamburger.hamburger-arrow-left.is-active:before {\n  width: 23px;\n  transform: translateX(0.4em) translateY(0.2em) rotate(45deg);\n  -moz-transform: translateX(0.4em) translateY(0.2em) rotate(45deg);\n  -webkit-transform: translateX(19px) translateY(4px) rotate(45deg); }\n\n.hamburger.hamburger-arrow-left.is-active:after {\n  width: 23px;\n  transform: translateX(0.4em) translateY(-0.2em) rotate(-45deg);\n  -moz-transform: translateX(0.4em) translateY(-0.2em) rotate(-45deg);\n  -webkit-transform: translateX(19px) translateY(-4px) rotate(-45deg); }\n", ""]);
+exports.push([module.i, ".menu-container {\n  width: 250px;\n  height: 100%;\n  position: fixed;\n  background: #fff;\n  top: 52px;\n  bottom: 0;\n  right: 0;\n  transition: all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);\n  border-right: 1px solid #ccc;\n  font-family: 'Arial',sans-serif;\n  overflow: auto;\n  height: calc(100% - 60px);\n  z-index: 9999999;\n  box-shadow: 0px 5px 2px #ccc; }\n\n.menu-container .show-menu {\n  right: 0; }\n\n.menu-container.hide-menu {\n  right: -250px; }\n\n.menu-open {\n  margin-left: 250px !important; }\n\n.cuppa-menu ul {\n  list-style: none;\n  padding: 0px; }\n\n.sub-menu > li > a {\n  padding-left: 50px !important; }\n\n.cuppa-menu ul > li > a {\n  display: block;\n  padding: 15px 30px;\n  background: #fff;\n  text-decoration: none;\n  border-bottom: 1px solid #ccc; }\n\n.cuppa-menu ul > li > a:hover {\n  background: #3fd48f !important;\n  color: #fff; }\n\n.cuppa-menu ul > li > a > i {\n  font-size: 24px;\n  float: right;\n  margin-top: -2px;\n  pointer-events: none; }\n\n/*!\n * Hamburgers\n * @description Tasty CSS-animated hamburgers\n * @author Jonathan Suh @jonsuh\n * @site https://jonsuh.com/hamburgers\n * @link https://github.com/jonsuh/hamburgers\n */\n/*.hamburger {\n  float: left;\n  padding: 15px 15px;\n  display: inline-block;\n  cursor: pointer;\n  transition-property: opacity, filter;\n  transition-duration: 0.15s;\n  transition-timing-function: linear;\n  font: inherit;\n  color: inherit;\n  text-transform: none;\n  background-color: transparent;\n  border: 0;\n  margin: 0;\n  height: 26px;\n  overflow: visible; }\n  .hamburger:hover {\n    opacity: 0.7; }\n\n.hamburger-box {\n  width: 40px;\n  height: 24px;\n  display: inline-block;\n  position: relative; }\n.hamburger:focus{\n    outline: none;\n}\n.hamburger-inner {\n  display: block;\n  top: 50%;\n  margin-top: -2px; }\n  .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {\n    width: 40px;\n    height: 2px;\n    background-color: #000;\n    border-radius: 4px;\n    position: absolute;\n    transition-property: transform;\n    transition-duration: 0.15s;\n    transition-timing-function: ease; }\n  .hamburger-inner::before, .hamburger-inner::after {\n    content: \"\";\n    display: block; }\n  .hamburger-inner::before {\n    top: -10px; }\n  .hamburger-inner::after {\n    bottom: -10px; }\n\n.hamburger--arrow.is-active .hamburger-inner::before {\n  transform: translate3d(-9px, 0, 0) rotate(-45deg) scale(0.7, 1); }\n\n.hamburger--arrow.is-active .hamburger-inner::after {\n  transform: translate3d(-9px, 0, 0) rotate(45deg) scale(0.7, 1); }\n\n.hamburger--arrow-r.is-active .hamburger-inner::before {\n  transform: translate3d(9px, 0, 0) rotate(45deg) scale(0.7, 1); }\n\n.hamburger--arrow-r.is-active .hamburger-inner::after {\n  transform: translate3d(9px, 0, 0) rotate(-45deg) scale(0.7, 1); }*/\n.cuppa-menu-overlay {\n  position: fixed;\n  background: #000;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  display: none;\n  transition: all 1s linear; }\n\n.show-overlay {\n  display: block; }\n\n.hide-overlay {\n  display: none; }\n\n/* Hamburger Styles */\n.hamburger {\n  font-size: 50px;\n  float: left;\n  display: inline-block;\n  width: 40px;\n  height: 24px;\n  padding: 0;\n  margin-top: 12px;\n  margin-left: 15px;\n  cursor: pointer;\n  transition: -webkit-transform .2s ease-in-out;\n  transition: transform .2s ease-in-out;\n  transition: transform .2s ease-in-out, -webkit-transform .2s ease-in-out;\n  -moz-transition: transform .2s ease-in-out;\n  -webkit-transition: transform .2s ease-in-out;\n  vertical-align: middle;\n  border: 0 none;\n  background: transparent; }\n\n.hamburger::-moz-focus-inner {\n  padding: 0;\n  border: 0 none; }\n\n.hamburger:focus {\n  outline: 0; }\n\n.hamburger:before,\n.hamburger:after {\n  content: \"\"; }\n\n.hamburger:before,\n.hamburger .icon,\n.hamburger:after {\n  display: block;\n  width: 100%;\n  height: 4px;\n  margin: 0 0 8px;\n  transition: -webkit-transform .2s ease-in-out;\n  transition: transform .2s ease-in-out;\n  transition: transform .2s ease-in-out, -webkit-transform .2s ease-in-out;\n  -moz-transition: transform .2s ease-in-out;\n  -webkit-transition: transform .2s ease-in-out;\n  border-radius: .25em;\n  -moz-border-radius: 25em;\n  -webkit-border-radius: .25em;\n  background: #000; }\n\n.hamburger.is-active:before,\n.hamburger.is-active .icon,\n.hamburger.is-active:after {\n  background: #000; }\n\n.hamburger.hamburger-arrow-left.is-active {\n  transform: rotate(180deg);\n  -moz-transform: rotate(180deg);\n  -webkit-transform: rotate(180deg); }\n\n.hamburger.hamburger-arrow-left.is-active:before {\n  width: 23px;\n  transform: translateX(0.4em) translateY(0.2em) rotate(45deg);\n  -moz-transform: translateX(0.4em) translateY(0.2em) rotate(45deg);\n  -webkit-transform: translateX(19px) translateY(4px) rotate(45deg); }\n\n.hamburger.hamburger-arrow-left.is-active:after {\n  width: 23px;\n  transform: translateX(0.4em) translateY(-0.2em) rotate(-45deg);\n  -moz-transform: translateX(0.4em) translateY(-0.2em) rotate(-45deg);\n  -webkit-transform: translateX(19px) translateY(-4px) rotate(-45deg); }\n", ""]);
 
 // exports
 
@@ -428,7 +428,7 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 463:
+/***/ 464:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(53)();
@@ -446,27 +446,27 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 469:
-/***/ (function(module, exports) {
-
-module.exports = "<nav class=\"navbar navbar-default navbar-fixed-top\">\r\n      <div class=\"container\">\r\n        <div class=\"navbar-header\">\r\n         <cuppa-slidemenu [menulist]=\"menuItemsArray\" (open)=\"onMenuOpen()\" (close)=\"onMenuClose()\" (onItemSelect)=\"onItemSelect($event)\"></cuppa-slidemenu>\r\n          <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#navbar\" aria-expanded=\"false\" aria-controls=\"navbar\">\r\n            <span class=\"sr-only\">Toggle navigation</span>\r\n            <span class=\"icon-bar\"></span>\r\n            <span class=\"icon-bar\"></span>\r\n            <span class=\"icon-bar\"></span>\r\n          </button>\r\n          <a class=\"navbar-brand\" href=\"https://cuppalabs.github.io/cuppa-ng2-slidemenu/\">\r\n          <img alt=\"Brand\" src=\"assets/img/cuppa-logo.png\">\r\n          Cuppa Slide Menu</a>\r\n        </div>\r\n        <div id=\"navbar\" class=\"navbar-collapse collapse\">\r\n            <ul class=\"nav navbar-nav navbar-right\">\r\n              <li><a href=\"http://cuppalabs.github.io/components/slidemenu\">Getting Started<span class=\"sr-only\">(current)</span></a></li>\r\n              <li><a href=\"http://cuppalabs.github.io/components/slidemenu/\">Documentation</a></li>\r\n              <li><a href=\"https://github.com/CuppaLabs/cuppa-ng2-slidemenu\">Github</a></li>\r\n\r\n            </ul>\r\n        </div><!--/.navbar-collapse -->\r\n      </div>\r\n    </nav>\r\n    <div class=\"jumbotron col-md-12\">\r\n      <div class=\"col-md-6\">\r\n        <img style=\"width:18%;\" src=\"assets/img/angular-logo.png\">\r\n        <h1 class=\"component-title\">Cuppa Slide Menu</h1>\r\n        <h2>Angular 2 slide out navigation menu for web and mobile</h2>\r\n        <h4>Click on hamburger menu on top left  corner</h4>\r\n\r\n        <p class=\"bt-group\">\r\n            <a href=\"https://github.com/CuppaLabs/cuppa-ng2-slidemenu\" target=\"_blank\" type=\"button\" class=\"btn btn-danger btn-lg\"><i class=\"fa fa-github\" aria-hidden=\"true\"></i><span class=\"hidden-xs\">Github</span></a>\r\n            <a href=\"#\" (click)=\"showMsg()\" type=\"button\" class=\"btn btn-danger btn-lg\"><i class=\"fa fa-tv\" aria-hidden=\"true\"></i><span class=\"hidden-xs\">Demo</span></a>\r\n            <a href=\"https://github.com/CuppaLabs/cuppa-ng2-slidemenu/archive/master.zip\" type=\"button\" class=\"btn btn-danger btn-lg\"><i class=\"fa fa-download\" aria-hidden=\"true\"></i><span class=\"hidden-xs\"> Download </span></a>\r\n        </p>\r\n      </div>\r\n      <div class=\"col-md-6\">\r\n        <div class=\"iphone-img\">\r\n        <img style=\"width: 100%;\" src=\"assets/img/iphone-empty.png\">\r\n        <video type=\"video/webm\" loop=\"\" autoplay=\"\" src=\"assets/img/demo4.webm\"></video>\r\n        </div>\r\n      </div>\r\n    </div>\r\n    <div class=\"guiding-overlay\" *ngIf=\"showdemomsg\" (click)=\"hideMsg()\">\r\n        <div class=\"message-content\">\r\n            <h3>For Demo Click on the hamburger on top left</h3>\r\n            <button class=\"btn btn-default btn-md\" (click)=\"hideMsg()\">Ok !! Got it !!</button>\r\n        </div>\r\n        \r\n    </div>"
-
-/***/ }),
-
 /***/ 470:
 /***/ (function(module, exports) {
 
-module.exports = "<span (clickOutside)=\"closeMenu()\">\r\n    <button (click)=\"menuToggle()\" class=\"hamburger hamburger-arrow-left\" [ngClass]=\"{'is-active': menuState, '': !menuState}\">\r\n        <span class=\"icon\"></span>\r\n    </button>\r\n<div class=\"menu-container cuppa-menu\" [ngClass]=\"{'show-menu': menuState, 'hide-menu': !menuState}\">\r\n    <ul>\r\n        <li *ngFor=\"let item of menulist\" (click)=\"onItemClick(item)\">\r\n            <a (click)=\"toggleSubMenu(item)\">{{item.title}} \r\n                <i *ngIf=\"item.subItems && !item.expand\" class=\"fa fa-angle-down\"></i>\r\n                <i *ngIf=\"item.subItems && item.expand\" class=\"fa fa-angle-up\"></i>\r\n            </a>\r\n           <ul *ngIf=\"item.subItems\" class=\"sub-menu\" [hidden]=\"!item.expand\">\r\n               <li *ngFor=\"let subitem of item.subItems\" (click)=\"onItemClick(subitem)\"><a>{{subitem.title}}</a></li>\r\n           </ul>\r\n        </li>\r\n    </ul>\r\n</div>\r\n<span>\r\n<!--<div class=\"cuppa-menu-overlay\" [ngClass]=\"{'show-overlay': menuState, 'hide-overlay': !menuState}\"></div> -->"
+module.exports = "<nav class=\"navbar navbar-default navbar-fixed-top\">\n      <div class=\"container\">\n        <div class=\"navbar-header\">\n         <cuppa-slidemenu [menulist]=\"menuItemsArray\" (open)=\"onMenuOpen()\" (close)=\"onMenuClose()\" (onItemSelect)=\"onItemSelect($event)\"></cuppa-slidemenu>\n          <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#navbar\" aria-expanded=\"false\" aria-controls=\"navbar\">\n            <span class=\"sr-only\">Toggle navigation</span>\n            <span class=\"icon-bar\"></span>\n            <span class=\"icon-bar\"></span>\n            <span class=\"icon-bar\"></span>\n          </button>\n          <a class=\"navbar-brand\" href=\"https://cuppalabs.github.io/cuppa-ng2-slidemenu/\">\n          <img alt=\"Brand\" src=\"assets/img/cuppa-logo.png\">\n          Cuppa Slide Menu</a>\n        </div>\n        <div id=\"navbar\" class=\"navbar-collapse collapse\">\n            <ul class=\"nav navbar-nav navbar-right\">\n              <li><a href=\"http://cuppalabs.github.io/components/slidemenu\">Getting Started<span class=\"sr-only\">(current)</span></a></li>\n              <li><a href=\"http://cuppalabs.github.io/components/slidemenu/\">Documentation</a></li>\n              <li><a href=\"https://github.com/CuppaLabs/cuppa-ng2-slidemenu\">Github</a></li>\n\n            </ul>\n        </div><!--/.navbar-collapse -->\n      </div>\n    </nav>\n    <div class=\"jumbotron col-md-12\">\n      <div class=\"col-md-6\">\n        <img style=\"width:18%;\" src=\"assets/img/angular-logo.png\">\n        <h1 class=\"component-title\">Cuppa Slide Menu</h1>\n        <h2>Angular 2 slide out navigation menu for web and mobile</h2>\n        <h4>Click on hamburger menu on top left  corner</h4>\n\n        <p class=\"bt-group\">\n            <a href=\"https://github.com/CuppaLabs/cuppa-ng2-slidemenu\" target=\"_blank\" type=\"button\" class=\"btn btn-danger btn-lg\"><i class=\"fa fa-github\" aria-hidden=\"true\"></i><span class=\"hidden-xs\">Github</span></a>\n            <a href=\"#\" (click)=\"showMsg()\" type=\"button\" class=\"btn btn-danger btn-lg\"><i class=\"fa fa-tv\" aria-hidden=\"true\"></i><span class=\"hidden-xs\">Demo</span></a>\n            <a href=\"https://github.com/CuppaLabs/cuppa-ng2-slidemenu/archive/master.zip\" type=\"button\" class=\"btn btn-danger btn-lg\"><i class=\"fa fa-download\" aria-hidden=\"true\"></i><span class=\"hidden-xs\"> Download </span></a>\n        </p>\n      </div>\n      <div class=\"col-md-6\">\n        <div class=\"iphone-img\">\n        <img style=\"width: 100%;\" src=\"assets/img/iphone-empty.png\">\n        <video type=\"video/webm\" loop=\"\" autoplay=\"\" src=\"assets/img/demo4.webm\"></video>\n        </div>\n      </div>\n    </div>\n    <div class=\"guiding-overlay\" *ngIf=\"showdemomsg\" (click)=\"hideMsg()\">\n        <div class=\"message-content\">\n            <h3>For Demo Click on the hamburger on top left</h3>\n            <button class=\"btn btn-default btn-md\" (click)=\"hideMsg()\">Ok !! Got it !!</button>\n        </div>\n        \n    </div>"
 
 /***/ }),
 
-/***/ 489:
+/***/ 471:
+/***/ (function(module, exports) {
+
+module.exports = "<span (clickOutside)=\"closeMenu()\">\n    <button (click)=\"menuToggle()\" class=\"hamburger hamburger-arrow-left\" [ngClass]=\"{'is-active': menuState, '': !menuState}\">\n        <span class=\"icon\"></span>\n    </button>\n<div class=\"menu-container cuppa-menu\" [ngClass]=\"{'show-menu': menuState, 'hide-menu': !menuState}\">\n    <ul>\n        <li *ngFor=\"let item of menulist\" (click)=\"onItemClick(item)\">\n            <a (click)=\"toggleSubMenu(item)\">{{item.title}} \n                <i *ngIf=\"item.subItems && !item.expand\" class=\"fa fa-angle-down\"></i>\n                <i *ngIf=\"item.subItems && item.expand\" class=\"fa fa-angle-up\"></i>\n            </a>\n           <ul *ngIf=\"item.subItems\" class=\"sub-menu\" [hidden]=\"!item.expand\">\n               <li *ngFor=\"let subitem of item.subItems\" (click)=\"onItemClick(subitem)\"><a>{{subitem.title}}</a></li>\n           </ul>\n        </li>\n    </ul>\n</div>\n<span>\n<!--<div class=\"cuppa-menu-overlay\" [ngClass]=\"{'show-overlay': menuState, 'hide-overlay': !menuState}\"></div> -->"
+
+/***/ }),
+
+/***/ 490:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(292);
+module.exports = __webpack_require__(293);
 
 
 /***/ })
 
-},[489]);
+},[490]);
 //# sourceMappingURL=main.bundle.js.map
