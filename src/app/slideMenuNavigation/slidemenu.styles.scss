@@ -1,56 +1,64 @@
-$animation-time: .3s;
+$animation-time: .5s;
 $transition-type: cubic-bezier(0.215, 0.610, 0.355, 1.000);
 .menu-container{
-    width: 250px;
-    height: 100%;
-    position: fixed;
-    background: #fff;
-    top: 52px;
-    bottom: 0;
-    right: 0;
-    transition: all $animation-time $transition-type;
-    border-right: 1px solid #ccc;
-    font-family:'Arial',sans-serif;
-    overflow: auto;
-    height: calc(100% - 60px);
-    z-index: 9999999;
-    box-shadow: 0px 5px 2px #ccc;
+  width: 190px;
+  height: 100%;
+  position: fixed;
+  background: rgba(255, 255, 255, 0.6);
+  top: 62px;
+  bottom: 0;
+  right: 0;
+  transition: all $animation-time $transition-type;
+  border-right: 1px solid #ccc;
+  font-family:'Arial',sans-serif;
+  overflow: auto;
+  height: calc(100% - 60px);
+  z-index: 9999999;
 }
 .menu-container .show-menu{
-    right: 0;
+  right: 0;
 }
 .menu-container.hide-menu{
-    right: -250px;
+  right: -250px;
 }
 .menu-open{
-    margin-left: 250px !important;
+  margin-left: 250px !important;
 }
 .cuppa-menu ul{
-    list-style: none;
-    padding: 0px;
+  list-style: none;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .cuppa-menu ul > li{
 
 }
 .sub-menu > li > a{
-    padding-left: 50px !important;
+  padding-left: 50px !important;
 }
 .cuppa-menu ul > li > a{
-    display: block;
-    padding: 15px 30px;
-    background: #fff;
-    text-decoration: none;
-    border-bottom: 1px solid #ccc;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 12px;
+  color: rgb(125, 125, 125);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+  cursor: pointer;
 }
 .cuppa-menu ul > li > a:hover{
-    background: #3fd48f !important;
-    color: #fff;
+  color: rgb(30, 66, 21);
 }
 .cuppa-menu ul > li > a > i{
-    font-size: 24px;
-    float: right;
-    margin-top: -2px;
-    pointer-events: none;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 12px;
+  color: rgb(30, 66, 21);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 600;
+  text-decoration: none;
 }
 /*!
  * Hamburgers
@@ -119,20 +127,20 @@ $transition-type: cubic-bezier(0.215, 0.610, 0.355, 1.000);
 .hamburger--arrow-r.is-active .hamburger-inner::after {
   transform: translate3d(9px, 0, 0) rotate(-45deg) scale(0.7, 1); }*/
 .cuppa-menu-overlay{
-    position: fixed;
-    background: #000;
-    top: 0;
-    left: 0;
-    right:0;
-    bottom: 0;
-    display: none;
-    transition: all 1s linear;
+  position: fixed;
+  background: rgba(255, 255, 255, 0.6);
+  top: 0;
+  left: 0;
+  right:0;
+  bottom: 0;
+  display: none;
+  transition: all 1s linear;
 }
 .show-overlay{
-    display: block;
+  display: block;
 }
 .hide-overlay{
-    display: none;
+  display: none;
 }
 /* Hamburger Styles */
 
@@ -177,7 +185,7 @@ $transition-type: cubic-bezier(0.215, 0.610, 0.355, 1.000);
   border-radius: .25em;
   -moz-border-radius: 25em;
   -webkit-border-radius: .25em;
-  background: #000;
+  background: rgba(0, 0, 0, 0.6);
 }
 .hamburger.is-active:before,
 .hamburger.is-active .icon,
