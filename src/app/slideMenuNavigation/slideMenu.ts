@@ -61,8 +61,8 @@ export class SlideMenu implements AfterViewInit{
         this.overlayElem.style['right'] = 0;
         this.overlayElem.style['bottom'] = 0;
         this.overlayElem.style['opacity'] = 0;
-        this.overlayElem.style['pointer-events'] = 'none';
-        this.overlayElem.style['transition'] = 'all .2s linear';
+        // this.overlayElem.style['pointer-events'] = 'none';
+        // this.overlayElem.style['transition'] = 'all .2s linear';
         document.getElementsByTagName('body')[0].appendChild(this.overlayElem);
     }
     private toggleOverlay(){

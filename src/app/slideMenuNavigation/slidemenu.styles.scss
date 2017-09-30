@@ -154,9 +154,9 @@ $transition-type: cubic-bezier(0.215, 0.610, 0.355, 1.000);
   margin-top: 18px;
   margin-left: 15px;
   cursor: pointer;
-  transition: transform .2s ease-in-out;
-  -moz-transition: transform .2s ease-in-out;
-  -webkit-transition: transform .2s ease-in-out;
+  //transition: transform .2s ease-in-out;
+  //-moz-transition: transform .2s ease-in-out;
+  //-webkit-transition: transform .2s ease-in-out;
   vertical-align: middle;
   border: 0 none;
   background: transparent;
@@ -179,9 +179,9 @@ $transition-type: cubic-bezier(0.215, 0.610, 0.355, 1.000);
   width: 100%;
   height: 2px;
   margin: 0 0 4px;
-  transition: transform .2s ease-in-out;
-  -moz-transition: transform .2s ease-in-out;
-  -webkit-transition: transform .2s ease-in-out;
+  //transition: transform .2s ease-in-out;
+  //-moz-transition: transform .2s ease-in-out;
+  //-webkit-transition: transform .2s ease-in-out;
   border-radius: .25em;
   -moz-border-radius: 25em;
   -webkit-border-radius: .25em;
@@ -192,20 +192,20 @@ $transition-type: cubic-bezier(0.215, 0.610, 0.355, 1.000);
 .hamburger.is-active:after {
   background: #000;
 }
-.hamburger.hamburger-arrow-left.is-active {
-  transform: rotate(180deg);
-  -moz-transform: rotate(180deg);
-  -webkit-transform: rotate(180deg);
-}
-.hamburger.hamburger-arrow-left.is-active:before {
-  width: 23px;
-  transform: translateX(.4em) translateY(.2em) rotate(45deg);
-  -moz-transform: translateX(.4em) translateY(.2em) rotate(45deg);
-  -webkit-transform: translateX(19px) translateY(4px) rotate(45deg);
-}
-.hamburger.hamburger-arrow-left.is-active:after {
-  width: 23px;
-  transform: translateX(.4em) translateY(-.2em) rotate(-45deg);
-  -moz-transform: translateX(.4em) translateY(-.2em) rotate(-45deg);
-  -webkit-transform: translateX(19px) translateY(-4px) rotate(-45deg);
-}
+//.hamburger.hamburger-arrow-left.is-active {
+//  transform: rotate(180deg);
+//  -moz-transform: rotate(180deg);
+//  -webkit-transform: rotate(180deg);
+//}
+//.hamburger.hamburger-arrow-left.is-active:before {
+//  width: 23px;
+//  transform: translateX(.4em) translateY(.2em) rotate(45deg);
+//  -moz-transform: translateX(.4em) translateY(.2em) rotate(45deg);
+//  -webkit-transform: translateX(19px) translateY(4px) rotate(45deg);
+//}
+//.hamburger.hamburger-arrow-left.is-active:after {
+//  width: 23px;
+//  transform: translateX(.4em) translateY(-.2em) rotate(-45deg);
+//  -moz-transform: translateX(.4em) translateY(-.2em) rotate(-45deg);
+//  -webkit-transform: translateX(19px) translateY(-4px) rotate(-45deg);
+//}
