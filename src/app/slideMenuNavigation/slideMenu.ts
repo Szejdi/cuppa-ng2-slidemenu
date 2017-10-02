@@ -53,14 +53,14 @@ export class SlideMenu implements AfterViewInit{
         item.expand = !item.expand;
     }
     private addOverlayElement(){
-        this.overlayElem = document.createElement('div');
-        this.overlayElem.classList.add('cuppa-menu-overlay');
-        this.overlayElem.style['position'] = 'fixed';
-        this.overlayElem.style['top'] = 0;
-        this.overlayElem.style['left'] = 0;
-        this.overlayElem.style['right'] = 0;
-        this.overlayElem.style['bottom'] = 0;
-        this.overlayElem.style['opacity'] = 0;
+        // this.overlayElem = document.createElement('div');
+        // this.overlayElem.classList.add('cuppa-menu-overlay');
+        // this.overlayElem.style['position'] = 'fixed';
+        // this.overlayElem.style['top'] = 0;
+        // this.overlayElem.style['left'] = 0;
+        // this.overlayElem.style['right'] = 0;
+        // this.overlayElem.style['bottom'] = 0;
+        // this.overlayElem.style['opacity'] = 0;
         // this.overlayElem.style['pointer-events'] = 'none';
         // this.overlayElem.style['transition'] = 'all .2s linear';
         document.getElementsByTagName('body')[0].appendChild(this.overlayElem);
