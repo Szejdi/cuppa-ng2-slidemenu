@@ -4,7 +4,7 @@ $transition-type: cubic-bezier(0.215, 0.610, 0.355, 1.000);
   width: 190px;
   height: 100%;
   position: fixed;
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.75);
   top: 62px;
   bottom: 0;
   right: 0;
@@ -33,6 +33,11 @@ $transition-type: cubic-bezier(0.215, 0.610, 0.355, 1.000);
 .cuppa-menu ul > li{
 
 }
+
+li {
+  padding-bottom: 5px;
+}
+
 .sub-menu > li > a{
   padding-left: 50px !important;
 }
